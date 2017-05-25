@@ -5,5 +5,5 @@ The script requries :
 - HPE RESTCmdlets v1.x
 
 To run the script:
-1/ Install the pre-requisits
-2/ .\Export-OVLocalStorage.PS1 -OVApplianceIP <OV-IP> -OVAdminName <Admin-name> -OVAdminPassword <Password> -OVAuthDomain <Domain-to-log-on>
+- Install the pre-requisits
+- .\Export-OVLocalStorage.PS1 -OVApplianceIP <OV-IP> -OVAdminName <Admin-name> -OVAdminPassword <Password> -OVAuthDomain <Domain-to-log-on>
