@@ -6,4 +6,4 @@ The script requries :
 
 To run the script:
 1/ Install the pre-requisits
-.\Export-OVLocalStorage.PS1 -OVApplianceIP <OV-IP> -OVAdminName <Admin-name> -OVAdminPassword <Password> -OVAuthDomain <Domain-to-log-on>
+2/ .\Export-OVLocalStorage.PS1 -OVApplianceIP <OV-IP> -OVAdminName <Admin-name> -OVAdminPassword <Password> -OVAuthDomain <Domain-to-log-on>
