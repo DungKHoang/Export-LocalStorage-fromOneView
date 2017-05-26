@@ -5,8 +5,8 @@ The script queries servers only of Gen8/Gen9 generations and they can be either 
 
 ## Prerequisites
 The script leverages the follwoing PowerShell libraries:
-    * OneView PowerShell library : https://github.com/HewlettPackard/POSH-HPOneView/releases
-    * HPE REST cmdlets           : https://www.powershellgallery.com/packages/HPRESTCmdlets/1.1.0.0
+* OneView PowerShell library : https://github.com/HewlettPackard/POSH-HPOneView/releases
+* HPE REST cmdlets           : https://www.powershellgallery.com/packages/HPRESTCmdlets/1.1.0.0
 
 
 
