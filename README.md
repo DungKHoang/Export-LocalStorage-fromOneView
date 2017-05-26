@@ -1,9 +1,23 @@
-# Export-LocalStorage-fromOneView
-The script collects information on local storage ( logical disks and physical disks) of servers managed by OneView
-The script requries :
-- HPE OneView Library v3.0
-- HPE RESTCmdlets v1.x
+# Collect Local Storage of Servers in OneView
 
-To run the script:
-- Install the pre-requisites
-- .\Export-OVLocalStorage.PS1 -OVApplianceIP <OV-IP> -OVAdminName <Admin-name> -OVAdminPassword <Password> -OVAuthDomain <Domain-to-log-on>
+Export-OVLocalStorage.ps1 is a PowerShell script that collects information about logical and physical disks of servers being managed under OneView.
+The script queries servers only of Gen8/Gen9 generations and they can be either DL or BL.
+
+## Prerequisites
+The script leverages the follwoing PowerShell libraries:
+    * OneView PowerShell library : https://github.com/HewlettPackard/POSH-HPOneView/releases
+    * HPE REST cmdlets           : https://www.powershellgallery.com/packages/HPRESTCmdlets/1.1.0.0
+
+
+
+## Syntax
+
+
+```
+    .\Export-OVLocalStorage.ps1 -OVApplianceIP <OV-IP-Address> -OVAdminName <Admin-name> -OVAdminPassword <password> 
+
+```
+
+## Output
+
+    Check the samples.zip for output of the script.
